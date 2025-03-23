@@ -8,7 +8,7 @@ const IndexPage = () => {
         <div className="relative h-64 w-full sm:h-96 lg:h-full lg:w-1/2">
           <StaticImage
             alt=""
-            src="https://images.unsplash.com/photo-1618260970135-8afc4074aad4?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            src="https://images.unsplash.com/photo-1543406500-f0fc54b07d12?q=80&w=3137&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             className="absolute inset-0 h-full w-full object-cover"
           />
         </div>
