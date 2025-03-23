@@ -12,27 +12,28 @@ const IndexPage = () => {
             className="absolute inset-0 h-full w-full object-cover"
           />
         </div>
-        <div className="w-full px-4 py-12 sm:px-6 sm:py-16 lg:w-1/2 lg:px-8 lg:py-24">
+        <div className="w-full flex flex-col items-center justify-center px-4 py-6 sm:px-6 sm:py-16 lg:w-1/2 lg:px-8 lg:py-24">
           <div className="mx-auto max-w-lg text-center">
-            <div>
-              <StaticImage
-                src="../images/8Countz.png"
-                alt="8countz"
-                height={150}
-              />
-            </div>
-
-            <p className="mt-4 text-gray-500">
+            <StaticImage
+              src="../images/8Countz.png"
+              alt="8countz"
+              height={120}
+            />
+            <p className="mt-2 text-gray-500 text-lg text-left">
               We’re crafting something epic for the dance community. Get ready
               to show your moves, take on challenges, and be part of something
               big! We'd love your input—help us shape this experience!
             </p>
           </div>
-
-          <div className="mx-auto mb-0 mt-8 max-w-md space-y-4">
-            <button className="inline-block w-full rounded border border-[#f64b65] bg-[#f64b65] px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-[#f64b65] focus:outline-none focus:ring active:text-[#f64b65]">
+          <div className="mx-auto mb-0 mt-8 max-w-md space-y-4 text-center">
+            <a
+              role="button"
+              target="_blank"
+              href="https://form.typeform.com/to/aWo0EcDa"
+              className="inline-block rounded border border-[#f64b65] bg-[#f64b65] px-6 py-3 text-sm font-medium text-white focus:outline-none focus:ring"
+            >
               Yes, I would like to help!
-            </button>
+            </a>
           </div>
         </div>
       </section>
