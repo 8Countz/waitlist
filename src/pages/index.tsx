@@ -14,51 +14,26 @@ const IndexPage = () => {
         </div>
         <div className="w-full px-4 py-12 sm:px-6 sm:py-16 lg:w-1/2 lg:px-8 lg:py-24">
           <div className="mx-auto max-w-lg text-center">
-            <h1 className="text-2xl font-bold sm:text-3xl">
-              Welcome home dancers 🕺 💃
-            </h1>
+            <div>
+              <StaticImage
+                src="../images/8Countz.png"
+                alt="8countz"
+                height={150}
+              />
+            </div>
 
             <p className="mt-4 text-gray-500">
-              Something interesting is coming up 🎉, reserve your spot below 👇
+              We’re crafting something epic for the dance community. Get ready
+              to show your moves, take on challenges, and be part of something
+              big! We'd love your input—help us shape this experience!
             </p>
           </div>
 
-          <form action="#" className="mx-auto mb-0 mt-8 max-w-md space-y-4">
-            <div>
-              <label htmlFor="name" className="sr-only">
-                Your name
-              </label>
-
-              <div className="relative">
-                <input
-                  type="text"
-                  className="w-full rounded-lg border-gray-200 p-4 pe-12 text-sm shadow-sm"
-                  placeholder="Enter your name"
-                />
-
-                <span className="absolute inset-y-0 end-0 grid place-content-center px-4"></span>
-              </div>
-            </div>
-            <div>
-              <label htmlFor="email" className="sr-only">
-                Email
-              </label>
-
-              <div className="relative">
-                <input
-                  type="email"
-                  className="w-full rounded-lg border-gray-200 p-4 pe-12 text-sm shadow-sm"
-                  placeholder="Enter email"
-                />
-              </div>
-            </div>
-
-            <div className="flex items-center justify-between">
-              <button className="inline-block w-full rounded border border-indigo-600 bg-indigo-600 px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500">
-                Join Waitlist
-              </button>
-            </div>
-          </form>
+          <div className="mx-auto mb-0 mt-8 max-w-md space-y-4">
+            <button className="inline-block w-full rounded border border-[#f64b65] bg-[#f64b65] px-12 py-3 text-sm font-medium text-white hover:bg-transparent hover:text-[#f64b65] focus:outline-none focus:ring active:text-[#f64b65]">
+              Yes, I would like to help!
+            </button>
+          </div>
         </div>
       </section>
     </main>
