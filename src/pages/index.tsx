@@ -20,19 +20,18 @@ const IndexPage = () => {
               height={120}
             />
             <p className="mt-2 text-gray-500 text-lg text-left">
-              We’re crafting something epic for the dance community. Get ready
-              to show your moves, take on challenges, and be part of something
-              big! We'd love your input—help us shape this experience!
+              We are crafting something epic for the dance community. Get ready
+              to show your moves, and connect with the community like never before.
             </p>
           </div>
           <div className="mx-auto mb-0 mt-8 max-w-md space-y-4 text-center">
             <a
               role="button"
               target="_blank"
-              href="https://form.typeform.com/to/aWo0EcDa"
+              href="https://www.instagram.com/8countzapp"
               className="inline-block rounded border border-[#f64b65] bg-[#f64b65] px-6 py-3 text-sm font-medium text-white focus:outline-none focus:ring"
             >
-              Yes, I would like to help!
+              Follow us on Instagram
             </a>
           </div>
         </div>
